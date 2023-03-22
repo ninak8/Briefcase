@@ -9,8 +9,8 @@ import styles from "./ContainerCard.module.css";
 const Proyects = (props) => {
   const proyects = [
     {
-      name: "App del Clima",
-      photo: img,
+      name: "Weather App",
+      photo: "https://i.ibb.co/kybDsj7/app-clima.png",
       tec: "React · Material-Ui",
       descripción:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illo odit hic alias. Sunt libero aspernatur laborum beatae. Dolore quidem dignissimos pariatur repellendus ut quis esse sed mollitia, dicta perspiciatis?",
