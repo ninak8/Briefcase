@@ -1,0 +1,95 @@
+.container {
+  background-color: #97b770;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5em;
+}
+
+.links {
+  width: 20em;
+  height: 3rem;
+  margin-right: 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.links > a {
+  text-decoration: none;
+}
+
+.links a > span {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  color: #202020;
+}
+
+.links a > span:hover {
+  color: #e6f7d6;
+  cursor: pointer;
+}
+
+.speack {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+  background-color: #608334;
+  color: #f5f5f5;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1em;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.avatar .cartoon {
+  width: 3em;
+  border-radius: 50%;
+}
+
+.background {
+  background-color: #516e2d;
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+  margin-left: 5em;
+}
+
+.avatar > span {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  color: #202020;
+  margin-left: 10px;
+}
+
+@media (max-width: 700px) {
+  .links {
+    margin-right: 1em;
+  }
+
+  .background {
+    margin-left: 1em;
+  }
+
+  .avatar > span {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .links {
+    width: 18em;
+  }
+
+  .background {
+    margin-right: 1em;
+  }
+}

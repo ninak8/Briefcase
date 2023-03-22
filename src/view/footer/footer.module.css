@@ -1,0 +1,18 @@
+.footer {
+  height: 8em;
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.links > a {
+  margin: 10px;
+}
+
+.footer > span {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.9em;
+  color: #608334;
+  font-weight: bold;
+}
