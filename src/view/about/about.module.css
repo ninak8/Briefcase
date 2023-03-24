@@ -1,9 +1,10 @@
 .about {
-  padding: 5em 0 9em 0;
+  padding: 16.3em 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
+  /* background-color: red; */
 }
 
 .superContainer {
@@ -17,7 +18,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 60em;
+  width: 80em;
 }
 
 .myInfo {
@@ -29,11 +30,12 @@
 }
 
 .container .myInfo > p {
-  width: 27em;
+  width: 35em;
   color: #202020;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
   font-size: 1.2em;
+  /* background-color: green; */
 }
 
 .myInfo > h2 {
@@ -63,8 +65,8 @@
 }
 
 .nadia {
-  width: 19em;
-  height: 27em;
+  width: 23em;
+  height: 30.5em;
   object-fit: cover;
   border-radius: 1em;
 }

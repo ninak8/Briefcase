@@ -13,25 +13,25 @@ const Proyects = (props) => {
       photo: "https://i.ibb.co/kybDsj7/app-clima.png",
       tec: "React · Material-Ui",
       descripción:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illo odit hic alias. Sunt libero aspernatur laborum beatae. Dolore quidem dignissimos pariatur repellendus ut quis esse sed mollitia, dicta perspiciatis?",
-      github: "",
+        "Busque una ciudad ubicada en cualquier parte del mundo y la aplicación muestra una tarjeta con la información meteorológica actual de la ciudad buscada. Además, al hacer 'clic' en una tarjeta, muestra en detalle el estado del tiempo de la ciudad seleccionada.",
+      github: "https://github.com/ninak8/Weather-App",
       link: "",
     },
     {
       name: "Dogy!",
-      photo: img,
+      photo: "https://i.ibb.co/hFb9xrF/dogy.png",
       tec: "React · redux · express",
       descripción:
-        "AAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAA  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illo odit hic alias. Sunt libero aspernatur laborum beatae. Dolore quidem dignissimos pariatur repellendus ut quis esse sed mollitia, dicta perspiciatis?",
+        "Aplicación que muestra perros traídos mediante el uso de una API externa y una base de datos; la aplicación es capaz de: filtrar por raza u origen, también ordenar alfabeticamente, y permite crear un nuevo perro que será guardado y posteriormente mostrado. El reto de este proyecto fue desarroyarlo sin ningún framework o librería",
       github: "https://github.com/ninak8/PI-Dogs-main",
-      link: "#",
+      link: "",
     },
     {
       name: "SpaceFood",
       photo: img,
       tec: "React · redux · express · Material-Ui",
       descripción:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illo odit hic alias. Sunt libero aspernatur laborum beatae. Dolore quidem dignissimos pariatur repellendus ut quis esse sed mollitia, dicta perspiciatis?",
+        "Es una aplicación Full Stack, para el comercio electrónico de Alimentos, en el formato multitienda, la cual cuenta con autenticación de terceros basada en Google, envío de notificaciones mediante correo electrónico, y almacenamiento de multimedia en la nube entre otras funciones.",
       github: "https://github.com/EXPRESSFOOD2",
       link: "https://spacefood.netlify.app/",
     },

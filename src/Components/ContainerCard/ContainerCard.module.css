@@ -3,7 +3,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
-  padding: 1em 0 0 0;
+  padding: 1em 0 7.5em 0;
+  /* background-color: red; */
 }
 
 .container {
